@@ -418,6 +418,40 @@
             margin-bottom: 5px;
         }
 
+        /* ESTILOS MEJORADOS PARA LAS IMÁGENES */
+        .lamina-image {
+            margin-top: 30px;
+            padding: 15px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .lamina-image img {
+            width: 220px; /* Un poco más grande para mejor visibilidad */
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+            border: 4px solid rgba(255, 255, 255, 0.85);
+            background: white;
+            padding: 8px;
+            display: block;
+            margin: 0 auto 15px auto;
+        }
+        .image-caption {
+            margin-top: 12px;
+            font-size: 12px;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.9);
+            background: rgba(0, 0, 0, 0.25);
+            padding: 8px 15px;
+            border-radius: 8px;
+            text-align: center;
+            max-width: 80%;
+            line-height: 1.4;
+        }
+
         @media print {
             body {
                 background: white;
@@ -532,6 +566,12 @@
                     <p>Describe las disciplinas de fonética, fonología, morfología y sintaxis. Analiza la estructura completa de una lengua.</p>
                 </div>
             </div>
+
+            <!-- IMAGEN 1 AL FINAL DE LA LÁMINA 1 -->
+            <div class="lamina-image">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCvEn2xyfGpWFs_fOkgh1xCRFyb7P6lzM7ma220DHJKD97HuMatAewWXqXytmfyi6KRoL8Nv2QdVCoPfmLCag4uHzZMzylHp1boS0O8dZSmmwmWRlJf6jn-sJ_M0oGcZVn8rZt1bUHqGkzQxcg645jyqnF--5aN-CJzPGdB2w0axqRPNtT6LWD_Z6m/w248-h248/analisis-morfologico-que-es.jpg" alt="Análisis Morfológico">
+                <div class="image-caption">Representación visual del análisis morfológico, base de la gramática descriptiva.</div>
+            </div>
         </div>
 
         <!-- LÁMINA 2: Gramáticas Específicas con Ejemplos -->
@@ -573,9 +613,15 @@
                 <p class="definition">Surgió al observar relaciones entre lenguas indoeuropeas. Estudia paralelismos y evoluciones lingüísticas entre idiomas.</p>
                 <div class="example">
                     <span class="example-label">✏️ Ejemplo – "pie":</span><br>
-                    Sánscrito: <strong>pāda</strong> | Griego: <strong>pous/pod-</strong> | Latín: <strong>pēs, pedis</strong> | Inglés: <strong>foot</strong> (Proto-germánico: <strong>*fōtuz</strong>)<br>
-                    <small style="display: block; margin-top: 5px;">Se observa el cambio sistemático <em>p &gt; f</em> descrito por la ley de Grimm (correspondencias regulares entre lenguas indoeuropeas).</small>
+                    Sánscrito: <strong>pāda</strong> | Griego: <strong>pous/pod</strong> | Latín: <strong>pēs, pedis</strong> | Inglés: <strong>foot</strong> (Proto-germánico: <strong>*fōtuz</strong>)<br>
+                    <small style="display: block; margin-top: 5px;">Se observa el cambio sistemático <em>p &gt; f</em> descrito por la ley de Grimm.</small>
                 </div>
+            </div>
+
+            <!-- IMAGEN 2 AL FINAL DE LA LÁMINA 2 -->
+            <div class="lamina-image">
+                <img src="https://escuelaelbs.lat/wp-content/uploads/categorias-gramaticales-ejemplos.jpg" alt="Categorías Gramaticales">
+                <div class="image-caption">Ejemplos prácticos de las categorías gramaticales en español.</div>
             </div>
         </div>
 
@@ -619,39 +665,30 @@
                 </div>
             </div>
 
+            <!-- IMAGEN 3 AL FINAL DE LA LÁMINA 3 -->
+            <div class="lamina-image">
+                <img src="https://keepcoding.io/wp-content/uploads/2024/09/que-es-la-gramatica-formal.jpg" alt="Gramática Formal">
+                <div class="image-caption">Representación conceptual de la gramática formal y su aplicación en ciencias de la computación.</div>
+            </div>
+
+            <!-- REFERENCIAS ACTUALIZADAS -->
             <div class="references">
                 <h3>📚 REFERENCIAS BIBLIOGRÁFICAS</h3>
                 <ul>
                     <li>Banco de la República. (2017). <em>La gramática del castellano</em>. https://enciclopedia.banrepcultural.org/index.php/La_gram%C3%A1tica_del_castellano</li>
-                    <li>Cáceres Ramírez, O. (2019). <em>Tipos de gramática</em>. https://www.aboutespanol.com/tipos-de-gramatica-2879706</li>
-                    <li>Gómez Torrego, L. (2010). <em>Gramática didáctica del español</em>. Madrid: Ediciones SM.</li>
-                    <li>Mantecón Ramírez, B. (1989). Justificación de la gramática escolar. <em>Cauce: Revista Internacional de Filología, Comunicación y sus Didácticas</em>, (12), 59-92. Universidad de Málaga.</li>
-                    <li>Real Academia Española & Asociación de Academias de la Lengua Española. (2009). <em>Nueva gramática de la lengua española</em>. Madrid: Espasa Libros.</li>
-                    <li>Tipos.co. (2017). <em>Tipos de gramática</em>. https://www.tipos.co/tipos-de-gramatica/</li>
+                    <li>Bosque, I., & Demonte, V. (Eds.). (1999). <em>Gramática descriptiva de la lengua española</em>. Espasa Calpe.</li>
+                    <li>Enciclopedia Concepto. (2023). <em>Gramática: concepto, tipos, partes y niveles</em>. https://concepto.de/gramatica/</li>
+                    <li>Ganeshan, A., & Liik, K. (2019). Las reglas prescriptivas y descriptivas. En <em>La lingüística hispánica: Una introducción</em>. Pressbooks. https://pressbooks.pub/linghispintro/chapter/reglas-prescriptivas-y-descriptivas/</li>
+                    <li>Gómez Torrego, L. (2010). <em>Gramática didáctica del español</em>. Ediciones SM.</li>
+                    <li>Mantecón Ramírez, B. (1989). Justificación de la gramática escolar. <em>Cauce: Revista Internacional de Filología, Comunicación y sus Didácticas</em>, (12), 59-92. https://cvc.cervantes.es/literatura/cauce/pdf/cauce12/cauce_12_004.pdf</li>
+                    <li>Real Academia Española & Asociación de Academias de la Lengua Española. (2009). <em>Nueva gramática de la lengua española</em>. Espasa Libros.</li>
+                    <li>Real Academia Española & Asociación de Academias de la Lengua Española. (s.f.). <em>Tipos de gramática</em>. Nueva gramática básica de la lengua española. https://www.rae.es/gramática-básica/la-gramática/la-gramática-y-sus-partes/tipos-de-gramática</li>
                 </ul>
             </div>
 
-            <div class="members">
-                <h3>👥 INTEGRANTES</h3>
-                <div class="members-list">
-                    <div class="member">
-                        <strong>1. Héctor Alejandro Cruz Ramírez</strong>
-                    </div>
-                    <div class="member">
-                        <strong>2. Andy Jhoan Navarrete Ramos</strong>
-                    </div>
-                    <div class="member">
-                        <strong>3. Martin Alfonso Chicas Ramírez</strong>
-                    </div>
-                    <div class="member">
-                        <strong>4. Emerson Giancarlo Castro Pleitez</strong>
-                    </div>
-                </div>
-            </div>
-
             <div class="footer-note">
-                <p><strong>"La energía de la mente es la esencia de la vida"</strong> - Aristóteles</p>
-                <p style="margin-top: 5px; font-size: 9px;">Morfología del Castellano | Ingeniería en Sistemas y Redes Informáticas</p>
+                <p><strong>"La imaginación es más importante que el conocimiento." – Albert Einstein</p>
+                <p style="margin-top: 5px; font-size: 9px;">BLOQUE 1: MORFOLOGÍA DEL CASTELLANO | Ingeniería en Sistemas y Redes Informáticas</p>
             </div>
         </div>
 
